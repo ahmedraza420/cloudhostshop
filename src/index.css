@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .text-h2 {
+        @apply text-[2rem] leading-9 font-medium my-5;
+    }
+
+    .text-h2-2 {
+        @apply text-[37px] leading-10 font-normal my-5;
+    }
+
+    .facebook {
+        @apply bg-[#0866ff]}
+    .linkedin {
+        @apply bg-[#0a66c2]}
+    .skype {
+        @apply bg-[#00AFF0]}
+
+}
